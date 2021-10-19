@@ -1,0 +1,24 @@
+# Enable whitelisting mode.
+*
+!*/
+
+# Whitelist: repo files
+!.gitignore
+!.gitattributes
+!.editorconfig
+!LICENSE
+
+# Whitelist: documentation
+!*.md
+
+# Whitelist: source files
+!*.cpp
+!*.hpp
+
+# Whitelist: project files
+!*.vcxproj
+
+# Explicit blacklist.
+.vs/
+bin/
+obj/
